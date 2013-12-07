@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-facture
 Version:	1.0
-Release:	5
+Release:	6
 Summary:	Generate an invoice
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/facture
