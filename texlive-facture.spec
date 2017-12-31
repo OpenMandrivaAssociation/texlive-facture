@@ -1,12 +1,6 @@
-# revision 24092
-# category Package
-# catalog-ctan /macros/xetex/latex/facture
-# catalog-date 2011-09-24 18:52:18 +0200
-# catalog-license other-free
-# catalog-version 1.0
 Name:		texlive-facture
-Version:	1.0
-Release:	10
+Version:	1.2.2
+Release:	1
 Summary:	Generate an invoice
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/facture
@@ -36,17 +30,10 @@ addresses for delivery and for billing are permitted.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/xelatex/facture/facture.cls
-%doc %{_texmfdistdir}/doc/xelatex/facture/README
-%doc %{_texmfdistdir}/doc/xelatex/facture/exemple.pdf
-%doc %{_texmfdistdir}/doc/xelatex/facture/exemple.tex
-%doc %{_texmfdistdir}/doc/xelatex/facture/exemplesansTVA.pdf
-%doc %{_texmfdistdir}/doc/xelatex/facture/exemplesansTVA.tex
-%doc %{_texmfdistdir}/doc/xelatex/facture/facture.pdf
-%doc %{_texmfdistdir}/doc/xelatex/facture/makefile
+%{_texmfdistdir}/tex/xelatex/facture
+%doc %{_texmfdistdir}/doc/xelatex/facture
 #- source
-%doc %{_texmfdistdir}/source/xelatex/facture/facture.dtx
-%doc %{_texmfdistdir}/source/xelatex/facture/facture.ins
+%doc %{_texmfdistdir}/source/xelatex/facture
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,16 +44,3 @@ addresses for delivery and for billing are permitted.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 751752
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 718409
-- texlive-facture
-- texlive-facture
-- texlive-facture
-
