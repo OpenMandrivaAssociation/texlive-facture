@@ -1,6 +1,6 @@
 Name:		texlive-facture
 Version:	43865
-Release:	1
+Release:	2
 Summary:	Generate an invoice
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/facture
