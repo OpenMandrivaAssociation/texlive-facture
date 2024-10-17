@@ -3,7 +3,7 @@ Version:	67538
 Release:	1
 Summary:	Generate an invoice
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/facture
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/facture
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/facture.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/facture.doc.r%{version}.tar.xz
